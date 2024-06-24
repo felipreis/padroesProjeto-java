@@ -1,4 +1,4 @@
-package dio.gof.dio.gof;
+package bootcamp.dio.gof.Singleton;
 
 public class SingletonLazyHolder {
 

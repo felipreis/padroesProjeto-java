@@ -1,3 +1,7 @@
+package bootcamp.dio;
+
+
+
 
 public class SingletonLazy {
 
