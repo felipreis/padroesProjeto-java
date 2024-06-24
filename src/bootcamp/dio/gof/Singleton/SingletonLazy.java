@@ -1,7 +1,4 @@
-package bootcamp.dio;
-
-
-
+package bootcamp.dio.gof.Singleton;
 
 public class SingletonLazy {
 
@@ -9,12 +6,12 @@ public class SingletonLazy {
 
     private SingletonLazy(){
         super();
-    }
+    };
 
     public static SingletonLazy getInstancia(){
         if(instancia == null){
             instancia = new SingletonLazy();
         }
         return instancia;
-    }
+    };
 }
